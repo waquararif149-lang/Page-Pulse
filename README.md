@@ -68,7 +68,7 @@ frontend/
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/waquararif149-lang/Page-Pulse.git
 ```
 
 Move into backend
