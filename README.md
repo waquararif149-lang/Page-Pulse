@@ -183,13 +183,16 @@ If more time were available, I would:
 
 ---
 
-## Live URL
+## Demo URL
 
 The frontend is deployed on vercel and 
 the backend is deployed on render
 
 Frontend:- https://page-pulse-zeta-bice.vercel.app
+
 backend:-  https://page-pulse-dj17.onrender.com
+
+Github:-   https://github.com/waquararif149-lang?tab=repositories
 
 ## Author
 
