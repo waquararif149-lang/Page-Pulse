@@ -179,12 +179,17 @@ Instead of testing against live websites, tests use static HTML strings. This ma
 
 If more time were available, I would:
 
-- Analyze additional SEO tags (Open Graph, Canonical, Robots)
-- Support sitemap analysis
-- Add Docker support and CI/CD Pipeline
-- Add API integration tests
+ add a caching layer using Redis. This would prevent repeated network requests for the same website and improve the application's response time and scalability. Since I've already worked with Redis in previous backend projects, this would be a natural enhancement.
 
 ---
+
+## Live URL
+
+The frontend is deployed on vercel and 
+the backend is deployed on render
+
+Frontend:- https://page-pulse-zeta-bice.vercel.app
+backend:-  https://page-pulse-dj17.onrender.com
 
 ## Author
 
