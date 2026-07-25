@@ -8,7 +8,7 @@ const app=express();
 app.use(cors({
     origin:[
        "http://127.0.0.1:5500",
-       "https://page-pulse-q81jq9li3-learning-e689.vercel.app"
+       "https://page-pulse-zeta-bice.vercel.app"
     ]
 
 }));
