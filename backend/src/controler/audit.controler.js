@@ -5,16 +5,13 @@ export default class auditControler {
     this.auditservice = new auditService();
   }
 
-  async auditWebsite(req, res) {
+  async auditWebsite(req, res,next) {
     try {
       const { url } = req.body;
       const result = await this.auditservice.auditWebsite(url);
       res.status(200).json(result);
     } catch (err) {
-      res.status(400).json({
-         "success":false,
-         "message":err.message
-      })
+      next(err);
     }
   }
 }
