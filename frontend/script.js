@@ -22,8 +22,9 @@ async function auditWebsite() {
     `;
 
     try {
+        const API_URL="https://page-pulse-dj17.onrender.com/api/audit"
 
-        const response = await fetch("http://localhost:4000/api/audit", {
+        const response = await fetch(API_URL, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
