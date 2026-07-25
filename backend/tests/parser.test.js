@@ -29,5 +29,5 @@ describe("parseHTML",()=>{
     expect(result.h1Count).toBe(1);
     expect(result.imagesMissingAlt).toBe(1);
     expect(result.wordCount).toBeGreaterThan(0);
-})
+   })
 })

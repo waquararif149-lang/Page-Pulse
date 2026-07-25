@@ -179,11 +179,9 @@ Instead of testing against live websites, tests use static HTML strings. This ma
 
 If more time were available, I would:
 
-- Add Lighthouse-based SEO metrics
 - Analyze additional SEO tags (Open Graph, Canonical, Robots)
 - Support sitemap analysis
-- Add Docker support
-- Improve frontend UI
+- Add Docker support and CI/CD Pipeline
 - Add API integration tests
 
 ---

@@ -6,13 +6,11 @@
 }
 
 body{
-
     background:#f4f7fb;
-
     display:flex;
-    justify-content:center;
+    flex-direction:column;
     align-items:center;
-
+    padding:40px 20px;
     min-height:100vh;
 }
 
@@ -147,4 +145,29 @@ button:hover{
 .error{
 
     color:red;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 18px;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
 }
