@@ -39,27 +39,35 @@ Page Pulse is a lightweight website SEO auditing tool built with Node.js. It ana
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
-backend/
-├── src/
-│ ├── controllers/
-│ ├── routes/
-│ ├── services/
-│ ├── utils/
-│ │ └── parser.js
-│ └── errors/
+```text
+Page-Pulse
 │
-├── tests/
-│ └── parser.test.js
+├── backend
+│   ├── src
+│   │   ├── controllers
+│   │   ├── routes
+│   │   ├── services
+│   │   ├── utils
+│   │   │   └── parser.js
+│   │   ├── middleware
+│   │   ├── errorhandler
+│   │   │   └── errorHandler.js
+│   │   └── app.js
+│   │
+│   ├── tests
+│   │   └── parser.test.js
+│   │
+│   ├── package.json
+│   ├── .env.example
+│   └── server.js
 │
-├── package.json
-└── .env.example
-
-frontend/
-├── index.html
-├── style.css
-└── script.js
+└── frontend
+    ├── index.html
+    ├── style.css
+    └── script.js
+```
 
 ---
 
@@ -180,6 +188,16 @@ Instead of testing against live websites, tests use static HTML strings. This ma
 If more time were available, I would:
 
  add a caching layer using Redis. This would prevent repeated network requests for the same website and improve the application's response time and scalability. Since I've already worked with Redis in previous backend projects, this would be a natural enhancement.
+
+---
+
+---
+
+AI Assistance
+During this assignment, I referred to the official documentation of Cheerio and other libraries to
+understand their APIs. I also used ChatGPT (OpenAI) to clarify concepts, understand library
+behavior, and resolve implementation doubts. The project architecture, implementation, debugging,
+testing, and deployment were completed by me.
 
 ---
 
